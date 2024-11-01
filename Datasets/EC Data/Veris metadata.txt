@@ -1,0 +1,37 @@
+Excel file contains bulk electrical conductivity (EC) and pH
+
+The EC is influenced by the amount of solutes in the soil, the soil water content, and the clay content. The EC reading does not discriminate for any of these, but is a rather a lump reading that you can use to detect areas that have different soil types.
+
+The pH represents the concentration of protons in log scale and is a measure of the level of alkalinity or acidity of the soil. It ranges from 0 to 14, where 0 is the most acidic and 14 most alkaline.
+
+The variable that you would need are most likely EC shallow, EC deep, and pH. The remaining variables are often use to derive these three. Certainly you will need latitude and longitude to place these data on a map.
+
+
+The columns headers for the EC tab are:
+
+Long = Longiture
+Lat = Latitude
+Red = Red band
+IR = Infrared band
+Altitude in meters above sea level
+Speed of the Veris machine during the field scan
+Temp = Temperature of the soil
+Depth = Sensing depth
+EC SH = Shallow EC
+EC DP = Deep EC
+EC Ratio
+Slope
+Curve
+
+
+
+The column headers for the pH files are:
+
+Long = Longitude
+Lat = Latitude
+pH Avg. = Mean pH for the two readings (see next two column headers)
+pH1 = pH reading 1
+pH2 = pH reading 2
+Altitude = Elevation above sea level in meters
+Speed = Speed of Veris machine during field scan
+Sample = Sample number
